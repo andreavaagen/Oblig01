@@ -37,5 +37,15 @@ fun flagg(country) :
     overlay-align("right", "top", rectangle(130, 70, "solid", "white"),
     overlay-align("right", "bottom", rectangle(130, 70, "solid", "white"),
                     rectangle(220, 160, "solid", "crimson")))))))))
+ else if (country == "Færøyene") :
+    overlay-align("left", "top", rectangle(60, 60, "solid", "white"),
+      overlay-align("left", "bottom", rectangle(60, 60, "solid", "white"),
+        overlay-align("right", "top", rectangle(120, 60, "solid", "white"),
+          overlay-align("right", "bottom", rectangle(120, 60, "solid", "white"),
+            overlay-align("left", "top", rectangle(70, 70, "solid", "steel-blue"),
+              overlay-align("left", "bottom", rectangle(70, 70, "solid", "steel-blue"),
+                overlay-align("right", "top", rectangle(130, 70, "solid", "steel-blue"),
+                  overlay-align("right", "bottom", rectangle(130, 70, "solid", "steel-blue"),
+                    rectangle(220, 160, "solid", "crimson")))))))))
   end
 end
