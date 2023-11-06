@@ -1,3 +1,8 @@
+#Dette er besvarelse på oppgave 1 i Oblig02
+#Jeg lagde en funksjon ved bruk av if og if-else setningene for å få fram de forskjellige flaggene
+#Legger inn "if" brukeren skriver inn "Norge" så gjelder den kommende koden for det norske flagget.
+#Legger på samme måte inn "if-else" på alle andre flagg, fulgt av koden til de ulike flaggene
+
 fun flagg(country) :
   if (country == "Norge") :
     overlay-align("left", "top", rectangle(60, 60, "solid", "crimson"),
