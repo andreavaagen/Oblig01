@@ -1,0 +1,4 @@
+rect = rectangle(50, 50, "solid", "white")
+circ = circle(40, "solid", "light blue")
+
+overlay(rect, circ)
